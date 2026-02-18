@@ -1,0 +1,44 @@
+# Python 3.10 Compatible Requirements
+# Generated for EMNIST Hyperparameter Tuning App
+
+# Core ML and Deep Learning
+tensorflow==2.15.0
+tensorflow-datasets==4.9.3
+keras==2.15.0
+
+# Web Framework
+streamlit==1.28.1
+
+# Data Manipulation and Analysis
+numpy==1.24.3
+pandas==2.0.3
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+altair==5.5.0
+
+# Core Dependencies (automatically installed but listed for clarity)
+scipy==1.11.1
+pillow==10.4.0
+h5py==3.14.0
+
+# Additional ML Libraries (optional but useful)
+scikit-learn==1.3.0
+
+# Utilities
+psutil==7.0.0
+tqdm==4.66.1
+
+# Development and Debugging (optional)
+jupyter==1.0.0
+ipykernel==6.25.0
+
+# Optional: Performance optimizations
+# protobuf==4.23.4
+# grpcio==1.59.0
+
+# Note: Some packages like numpy, scipy, pillow are dependencies 
+# of tensorflow and will be installed automatically, but listing
+# specific versions ensures compatibility
