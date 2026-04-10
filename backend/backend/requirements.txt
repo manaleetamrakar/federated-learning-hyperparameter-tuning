@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+websockets
+tensorflow
+tensorflow-datasets
+numpy
+pandas
+pydantic
+python-multipart
